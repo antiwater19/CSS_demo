@@ -1,4 +1,11 @@
-h2 {
+/* *는전체 선택자이다. */
+* {
+    background-color: cyan;
+}
+
+
+
+h1, h2 {
     color: teal;
     background-color: rgb(41, 108, 233);
 }
@@ -6,6 +13,7 @@ h2 {
 button {
     color: hotpink;
     background-color: cyan;
+    font-size: 30px;
 }
 
 p {

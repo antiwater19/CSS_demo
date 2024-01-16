@@ -1,0 +1,89 @@
+/* 이것은 중요한 공식이다.
+ID 이게 가장 우선시 된다. 우선도 100점때
+CLASS 이건 중간 우선도 10점때
+ELEMENT 우선도 1점때
+가장 구체적인 선언이  우선적으로 적용되어 우선도가 낮은것을 전부 무시
+가능하다.
+*/
+
+h1,
+h2 {
+    color: olivedrab;
+}
+
+h2+button {
+    font-size: 20px;
+    background-color: aqua;
+}
+
+footer a {
+    color: red;
+}
+
+/* 한단계 바로 아래 태그 직계자손을 대상으로 한다. */
+footer>a {
+    color: blue;
+}
+
+input[type="password"] {
+    color: greenyellow;
+}
+
+a[href*="https://www.google.com"] {
+    font-weight: 700;
+    color: #457b9d;
+}
+
+.post a {
+    color: #457b9d;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.post button:hover {
+    background-color: darkred;
+    color: #f1faee;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #02c39a;
+}
+
+/* 3번쨰만 선택 */
+.post:nth-of-type(3n) {
+    background-color: #dfe8dc;
+}
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: #fcbf49;
+}
+
+#signup {
+    background-color: #02c39a;
+    font-family: 'Courier New', Courier, monospace !important;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.post button:hover {
+    background-color: darkred;
+    color: #f1faee;
+}
+
+/* !important는 어떤 우선순위도 무시가능하게끔 만들수 있다. 사용하는데 주의해야한다. */
+button:hover {
+    background-color: green !important;
+    font-size: 10px;
+}

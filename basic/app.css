@@ -5,7 +5,8 @@
 
 
 
-h1, h2 {
+h1,
+h2 {
     color: teal;
     background-color: rgb(41, 108, 233);
 }

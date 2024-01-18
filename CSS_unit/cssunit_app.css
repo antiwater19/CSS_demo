@@ -1,0 +1,74 @@
+html {
+    font-size: 30px;
+}
+
+section {
+    background-color: #8ecae6;
+    width: 800px;
+    height: 800px;
+}
+
+div {
+    background-color: #219ebc;
+    width: 70%;
+    height: 20%;
+}
+
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+
+/* 단위em은 상위 태그사이즈의 배수를 뜻한다. */
+#ems h2 {
+    font-size: 5em;
+    margin-left: 1em;
+}
+
+#ems p {
+    font-size: 1em;
+}
+
+#ems h3 {
+    font-size: 1.5em;
+}
+
+article {
+    font-size: 15px;
+}
+
+button {
+    font-size: 2em;
+    padding: 0 30px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    color: white;
+
+}
+
+ul {
+    font-size: 1.5em;
+}
+
+/* 단위 rem도 상위 태그 크기의 배수이다. */
+
+#rems h3 {
+    font-size: 3rem;
+}
+
+#rems h2 {
+    font-size: 2rem;
+}
+
+/* 여기에 나오는 ul에서의 rem단위가 em과의 차이이다.
+em은 항목이 계속 하위 항목이 생길 때 마다 점점 작아지고
+rem은 그런거 없이 전 항목이 크기가 일정 하다. */
+#rems ul {
+    font-size: 0.8rem;
+}
+
+
+#rems button {
+    font-size: 1.5rem;
+}

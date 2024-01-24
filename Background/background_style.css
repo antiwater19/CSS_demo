@@ -1,0 +1,20 @@
+/* 참고 사이트: https://developer.mozilla.org/ko/docs/Web/CSS/background */
+
+section {
+    width: 80%;
+    height: 800px;
+    background-color: blue;
+    background-image: url("https://i.namu.wiki/i/71tFOX__A1QeyGSHdSFaoKftRQW92zC1yG6by5b3PC3_150C3SDi5tF31sN3sgD8pOLUGu6eBvpwNhf0i2mIVN9eZfVzwXxmd_0oCgWGVpYOuGnCGDHraBK99EZeNNMKfP06WKLzYuHsG-HTm2ze5Noxa6d3c8lZnFx-71EpCgg.webp");
+    /* background: repeat; */
+    /* background-size: cover; */
+    /* cover말고도 contain 도 있다. */
+    background-position: center;
+    /* bottom, top 도 있다. */
+    margin: 0 auto;
+
+}
+
+h1 {
+    font-size: 100px;
+    color: aliceblue;
+}

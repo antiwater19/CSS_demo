@@ -1,0 +1,18 @@
+img {
+    width: 25%;
+    background-color: blanchedalmond;
+    object-fit: contain;
+    /* margin: 1.666666%; */
+    margin: calc(10%/6);
+
+}
+
+nav {
+    font-size: 1.2em;
+    font-family: 'Rubik Burned', system-ui;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30px;
+    margin-left: calc(10%/6);
+    padding: 1.2em 0;
+}

@@ -1,0 +1,26 @@
+body {
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    /* div의 크기가 어떻든간에 이 상위 flexbox안에 있도록 만든다. */
+    display: flex;
+    /* flexbox에는 축이 두개가 있다 main axis, cross axis(x랑 y축처럼) */
+    flex-direction: column-reverse;
+    /* flexbox의 방향을 결정한다. */
+
+}
+
+#container div {
+    width: 200px;
+    height: 200px;
+}

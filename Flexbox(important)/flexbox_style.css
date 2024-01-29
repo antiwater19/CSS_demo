@@ -15,12 +15,13 @@ h1 {
     /* div의 크기가 어떻든간에 이 상위 flexbox안에 있도록 만든다. */
     display: flex;
     /* flexbox에는 축이 두개가 있다 main axis, cross axis(x랑 y축처럼) */
-    flex-direction: column-reverse;
+    flex-direction: row;
     /* flexbox의 방향을 결정한다. */
-
+    justify-content: flex-start;
+    flex-wrap: nowrap;
 }
 
 #container div {
-    width: 200px;
+    width: 600px;
     height: 200px;
 }
